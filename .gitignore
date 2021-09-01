@@ -351,3 +351,4 @@ MigrationBackup/
 
 # Default ignored dir
 __pycache__/
+.ipynb_checkpoints/

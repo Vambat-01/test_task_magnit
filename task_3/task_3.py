@@ -98,6 +98,6 @@ def data_house():
 if __name__ == '__main__':
     db_is_created = os.path.exists("houses.sqlite")
     if not db_is_created:
-
         Base.metadata.create_all(engine)
+
     app.run(host='0.0.0.0', port=8000, debug=False)
